@@ -11,3 +11,19 @@ routing is done in the app.jsx
 in components folder the home foder is created and in that the Banner.jsx is created, imported in the home.jsx
 also created other components like Features, Hero, Testimonial, Title, CallToAction, Footer, navbar etc.
 now all components are node we are creating the login page now
+
+backend 
+
+server.js is the main file to start the server
+after connecting the database we create a functionality using that we can create account and login using the existing account so we have to 
+create the user authentication. we have to store the user Data in the database and to store that we have to create the schema
+
+
+in my hired.ai i have to copy following files
+
+first setup the mongodb
+server.js
+User.js
+userController.js
+db.js
+have to make new .env file
