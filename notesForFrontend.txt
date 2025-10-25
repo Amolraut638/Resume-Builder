@@ -27,3 +27,6 @@ User.js
 userController.js
 db.js
 have to make new .env file
+
+npm install --save-dev nodemon
+npm install express cors dotenv jsonwebtoken multer mongoose

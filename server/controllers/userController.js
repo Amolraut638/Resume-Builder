@@ -80,6 +80,7 @@ export const getUserById = async (req, res) => {
     try {
 
         const userId = req.userId;  // we are getting userId from the request but we are not adding userId int request, the userId will be added through middleware that we will create later
+                    // this userId will added through protect middleware
 
         //check if user exists
         const user = await User.findById(userId)
@@ -97,4 +98,8 @@ export const getUserById = async (req, res) => {
 }
 
 //now we create the middleware for this fuction
+//created the middleware
+//now using the controller fuction we have to create the api endpoints from that we get different routes so we create a routes file
+
+
 
