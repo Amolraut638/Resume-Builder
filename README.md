@@ -132,7 +132,7 @@ npm run dev
 🚀 Check out the deployed version here:
 👉  https://resume-builder-amol-raut.vercel.app
 
-🤝 Reach Out to Me
+## 🤝 Reach Out to Me
 
 📧 Email: amolraut1902@gmail.com
 
