@@ -100,7 +100,7 @@ const MinimalTemplate = ({ data, accentColor }) => {
                                         {edu.degree} {edu.field && `in ${edu.field}`}
                                     </h3>
                                     <p className="text-gray-600">{edu.institution}</p>
-                                    {edu.gpa && <p className="text-sm text-gray-500">GPA: {edu.gpa}</p>}
+                                    {edu.gpa && <p className="text-sm text-gray-500">{edu.gpa < 10 ? "GPA: " : "Percentage: "} {edu.gpa}</p>}
                                 </div>
                                 <span className="text-sm text-gray-500">
                                     {formatDate(edu.graduation_date)}

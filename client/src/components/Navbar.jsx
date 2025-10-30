@@ -1,14 +1,19 @@
 import React from 'react'
+import { useDispatch, useSelector } from 'react-redux'
 import { Link, useNavigate } from 'react-router-dom'
+import { logout } from '../app/features/authSlice'
 
 const Navbar = () => {
 
-  const user = {name : "John Doe"}  // dummy user
+  const {user} = useSelector(state => state.auth)
+  const dispatch = useDispatch()
+
   const navigate = useNavigate() //it gives you a function you can use to change pages (navigate) programmatically that means via code, not by clicking a <Link>.
   
   //logoutUser function for logout functinality
   const logoutUser = () => {
     navigate('/')
+    dispatch(logout())
   }
   
   return (
