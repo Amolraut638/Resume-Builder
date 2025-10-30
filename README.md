@@ -130,7 +130,7 @@ npm run dev
  ## 🌍 Live Demo
 
 🚀 Check out the deployed version here:
-👉 
+👉  https://resume-builder-amol-raut.vercel.app
 
 🤝 Reach Out to Me
 
