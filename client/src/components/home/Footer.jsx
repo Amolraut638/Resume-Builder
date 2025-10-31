@@ -32,7 +32,7 @@ const Footer = () => {
                             <li><a href="/" className="hover:text-green-600 transition">Company</a></li>
                             <li><a href="/" className="hover:text-green-600 transition">Blogs</a></li>
                             <li><a href="/" className="hover:text-green-600 transition">Community</a></li>
-                            <li><a href="/" className="hover:text-green-600 transition">Careers<span className="text-xs text-white bg-green-600 rounded-md ml-2 px-2 py-1">We're hiring!</span></a></li>
+                            <li><a href="/" className="hover:text-green-600 transition">Careers</a></li>
                             <li><a href="/" className="hover:text-green-600 transition">About</a></li>
                         </ul>
                     </div>
@@ -45,7 +45,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="flex flex-col max-md:items-center max-md:text-center gap-2 items-end">
-                    <p className="max-w-60">Making every customer feel valued—no matter the size of your audience.</p>
+                    <p className="max-w-60">Your career journey starts with the perfect resume.</p>
                     <div className="flex items-center gap-4 mt-3">
                         <a href="https://www.instagram.com/_amol.raut" target="_blank" rel="noreferrer">
                             <Instagram className="size-5 hover:text-green-500" aria-hidden="true"/>
